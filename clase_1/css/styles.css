@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Colores */
+:root {
+  --azul-pastel: #a7c7e7;
+  --lila-suave: #c9a7eb;
+  --verde-menta: #a8e6cf;
+  --blanco: #ffffff;
+  --font: "Poppins", sans-serif;
+}
+
+/* Style reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  background-color: var(--azul-pastel);
+  font-family: var(--font);
+  height: 100vh;
+}
+
+body header,
+body main,
+body footer {
+  height: 30%;
+}
+
+header {
+  background-color: var(--lila-suave);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+main section {
+  padding: 50px;
+}
+
+footer {
+  background-color: var(--verde-menta);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (width < 768px) {
+  body {
+    height: auto;
+  }
+
+  header {
+    height: 350px !important;
+  }
+
+  main {
+    flex-direction: column;
+  }
+}
