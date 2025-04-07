@@ -31,5 +31,5 @@ const resta = (numero1, numero2) => numero1 - numero2;
 
 console.log(resta(10, 5)); // 5
 
-alert(mensaje("Emiliano"));
 const mensaje = (nombre) => nombre + " es un genio";
+alert(mensaje("Emiliano"));
