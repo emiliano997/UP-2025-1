@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piedra, Papel o Tijera</title>
+  </head>
+  <body>
+    <h1>Piedra, Papel o Tijera</h1>
+
+    <div><span id="minutos">00</span>:<span id="segundos">00</span></div>
+
+    <!-- <select name="options" id="options">
+      <option value="piedra">Piedra</option>
+      <option value="papel">Papel</option>
+      <option value="tijera">Tijera</option>
+    </select>
+    <button id="jugar">Jugar</button> -->
+
+    <button id="piedra">
+      <img src="./img/rock.svg" alt="" width="50" height="50" />
+      <p>Piedra</p>
+    </button>
+    <button id="papel">
+      <img src="./img/paper.svg" alt="" width="50" height="50" />
+      <p>Papel</p>
+    </button>
+    <button id="tijera">
+      <img src="./img/scissor.svg" alt="" width="50" height="50" />
+      <p>Tijera</p>
+    </button>
+
+    <!-- <p id="resultado"></p> -->
+
+    <div id="resultado"></div>
+    <p>
+      Perdidas: <span id="perdidas">0</span> <br />
+      Ganadas: <span id="ganadas">0</span> <br />
+      Empatadas: <span id="empatadas">0</span> <br />
+    </p>
+
+    <script src="./js/juego.js"></script>
+  </body>
+</html>
