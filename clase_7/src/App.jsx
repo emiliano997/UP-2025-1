@@ -1,16 +1,16 @@
 import "./App.css";
-import { Description } from "./components/Description";
-import { Hero } from "./components/Hero";
-import { Reviews } from "./components/Reviews";
+import { Counter } from "./components/Counter/Counter";
+import { Hero } from "./components/Hero/Hero.jsx";
 
 function App() {
   return (
     <main>
-      <Hero />
-
-      <Description />
-
-      <Reviews />
+      <Counter />
+      <Counter />
+      <Counter />
+      <Counter />
+      <Counter />
+      <Counter />
     </main>
   );
 }
